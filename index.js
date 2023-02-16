@@ -1,9 +1,7 @@
-img = document.getElementById("jeff");
-
 function setVisible() {
-  if (img.classList.contains("hidden")) {
-    img.classList.remove("hidden");
-  } else {
-    img.classList.add("hidden");
+  var images = document.querySelectorAll("img:not(#middle-image, #logo)");
+
+  for (var i = 0; i < images.length; i++) {
+    images[i].classList.toggle("hidden");
   }
 }
