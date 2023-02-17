@@ -3,7 +3,7 @@ import ProductCard from "../components/ProductCard";
 export default function Loja() {
   return (
     <div className="flex flex-col items-center overflow-auto bg-zinc-900">
-      <div className="flex w-full flex-1 flex-col items-center gap-12 p-4">
+      <div className="grid flex-1 items-center gap-12 p-10 lg:grid-cols-2 xl:grid-cols-3">
         <ProductCard
           name={"axolote mexicano"}
           price={"R$400"}
@@ -43,7 +43,7 @@ export default function Loja() {
           name={"Macaco-narigudo"}
           price={"R$5.000.000"}
           image={
-            "https://meusanimais.com.br/wp-content/uploads/2021/04/macaco-narigudo-nasalis-larvatus.jpg?auto=webp&quality=45&width=1920&crop=16:9,smart,safe"
+            "https://orionneto.files.wordpress.com/2013/02/animal_09.jpg?w=980"
           }
         />
         <ProductCard
