@@ -33,6 +33,13 @@ export default function Loja() {
           }
         />
         <ProductCard
+          name={"Raposa Feneco"}
+          price={"R$650.000"}
+          image={
+            "https://t2.ea.ltmcdn.com/pt/posts/3/5/3/o_feneco_como_animal_de_estimacao_20353_600.jpg"
+          }
+        />
+        <ProductCard
           name={"Macaco-narigudo"}
           price={"R$5.000.000"}
           image={
