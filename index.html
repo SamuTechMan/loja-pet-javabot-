@@ -2,89 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Pet JavaBot</title>
+    <title>Vite + React</title>
   </head>
-  <body class="bg-zinc-900 h-screen flex flex-col items-center justify-center">
-    <div
-      class="h-16 w-full bg-emerald-600 flex justify-between items-center p-4 text-emerald-100"
-    >
-      <div class="flex gap-4">
-        <a href="/">Home</a>
-        |
-        <a href="/sobre.html">Sobre</a>
-        |
-        <a href="./loja.html">Loja</a>
-      </div>
-      <div class="flex items-center justify-center gap-3">
-        <a href="./carrinho.html"
-          ><img
-            class="w-10"
-            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Femojigraph.org%2Fmedia%2Fmicrosoft%2Fshopping-cart_1f6d2.png&f=1&nofb=1&ipt=15b563227774bf490ae6f11eb4efb142f9deb0d099f8b6b5c905b12363a6ffa2&ipo=images"
-            alt=""
-          />
-        </a>
-        <div class="text-lg">Pet JavaBot</div>
-        <img
-          id="logo"
-          class="h-12"
-          src="https://imagensemoldes.com.br/wp-content/uploads/2021/03/Ping-Pong-PNG.png"
-          alt=""
-        />
-      </div>
-    </div>
-    <div
-      class="flex relative flex-1 w-full justify-center items-center w-full flex-col gap-12"
-    >
-      <button
-        onclick="setVisible()"
-        class="border-2 border-emerald-400 hover:scale-110 hover:shadow-emerald-600 hover:shadow-lg transition-all shadow-emerald-100 shadow-md rounded-xl"
-      >
-        <img
-          id="middle-image"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsynhvEh52iy3ZvsOqnOM625QiOe5KbP4V_yvLVbpSWIJs0UrL_DFBHtN91Xkho_r8hps&usqp=CAU"
-          alt=""
-          class="rounded-xl"
-        />
-      </button>
-
-      <div class="text-emerald-300 text-2xl text-center">Javabogus</div>
-
-      <img
-        class="absolute w-36 bottom-10 right-10"
-        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Duke_%28Java_mascot%29_waving.svg/1137px-Duke_%28Java_mascot%29_waving.svg.png"
-        alt=""
-      />
-      <img
-        class="absolute w-36 top-10 left-10"
-        src="https://i.kym-cdn.com/photos/images/original/002/018/144/1f8.png"
-        alt=""
-      />
-      <img
-        class="absolute w-48 top-10 right-10"
-        src="https://www.transparentpng.com/thumb/army-helicopter/pTKVr0-photo-military-nefer-union-png-army-helicopter.png"
-        alt=""
-      />
-      <img
-        id="jeff"
-        class="absolute w-48 bottom-0 left-0"
-        src="http://thebookofbeing.net/mouse-deer.gif"
-        alt=""
-      />
-      <img
-        class="absolute w-48 bottom-0 left-1/2 -translate-x-1/2"
-        src="https://1.bp.blogspot.com/-9KuQVpfQBs4/YNXQPdskirI/AAAAAAAAYI8/3SV4I5uaMncFUFITpH2RkkgA_rmvZoK3wCLcBGAsYHQ/s500/fogueira.gif"
-        alt=""
-      />
-      <img
-        class="absolute w-48 top-0 left-1/2 -translate-x-1/2"
-        src="https://media.tenor.com/fSsxftCb8w0AAAAi/pikachu-running.gif"
-        alt=""
-      />
-    </div>
-
-    <script src="/index.js"></script>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
