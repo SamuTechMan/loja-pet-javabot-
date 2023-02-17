@@ -2,8 +2,8 @@ import ProductCard from "../components/ProductCard";
 
 export default function Loja() {
   return (
-    <div class="flex h-full flex-col items-center justify-center bg-zinc-900">
-      <div class="flex w-full flex-1 flex-col items-center gap-12 overflow-x-auto overflow-y-auto p-20">
+    <div className="flex h-full flex-col items-center justify-center bg-zinc-900">
+      <div className="flex w-full flex-1 flex-col items-center gap-12 overflow-x-auto overflow-y-auto p-20">
         <ProductCard
           name={"axolote mexicano"}
           price={"R$400"}
