@@ -101,9 +101,87 @@ export const animals = [
       "https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/27185.jpg?w=1600",
   },
   {
+    name: "Macaco de Mianmar",
+    price: "R$9.000.000",
+    image:
+      "https://hypescience.com/wp-content/uploads/2010/12/anibiz5.jpg",
+  },
+  {
+    name: "Rato-toupeira-pelado",
+    price: "R$10.000.000",
+    image:
+      "https://igec.com.br/wp-content/uploads/2021/04/74f8567605bf2b58211ea4e7bd2b74b8_Rato-toupeira-pelado.jpg",
+  },
+  {
+    name: "Jerboar",
+    price: "R$12.000.000",
+    image:
+      "https://igec.com.br/wp-content/uploads/2021/04/705980d1af4ffcd24f9c029bd29c4610_Jerboa.jpg",
+  },
+  {
+    name: "Tenreque-raiado-das-planícies",
+    price: "R$13.000.000",
+    image:
+      "https://igec.com.br/wp-content/uploads/2021/04/c4dadbe3b9478727e79cd9eb43b36f1e_tenreque-raiado-das-planicies.jpg",
+  },
+  {
+    name: "Colugo",
+    price: "R$13.500.000",
+    image:
+      "https://igec.com.br/wp-content/uploads/2021/04/32508d44377bb608885ce78dd0a6d52c_ngs0_8091-2.jpg",
+  },
+  {
+    name: "Ocapi",
+    price: "R$13.700.000",
+    image:
+      "https://igec.com.br/wp-content/uploads/2021/04/3f6b04365f20b098bc5993429f3c8d46_ocapi_capa_animal_widexl.jpg",
+  },
+  {
+    name: "Babirusa",
+    price: "R$14.000.000",
+    image:
+      "https://igec.com.br/wp-content/uploads/2021/04/7e8b05d476fd5d7cfd1df14b48045339_Babirusa.jpg",
+  },
+  {
+    name: "Peixe-Gota",
+    price: "R$14.800.000",
+    image:
+      "https://igec.com.br/wp-content/uploads/2021/04/41d9810e4f466644cb104b2495f85972_Peixe-Gota.jpg",
+  },
+  {
     name: "Peixe-mão rosa",
     price: "R$15.000.000",
     image:
       "https://ogimg.infoglobo.com.br/in/25331649-7eb-3d6/FT1086A/_122493152_pink_handfish_by_karen_gowle.2e16d0ba.fill-1200x600-c100.jpg",
+  },
+  {
+    name: "O engolidor-negro",
+    price: "R$17.000.000",
+    image:
+      "https://t1.ea.ltmcdn.com/pt/posts/7/9/3/1_o_engolidor_negro_21397_0_600.webp",
+  },
+  {
+    name: " peixe-comedor-de-língua",
+    price: "R$20.000.000",
+    image:
+      "https://img.r7.com/images/parasita-lingua-peixe-terror-redes-sociais-09082022183140832?dimensions=771x420&no_crop=true",
+  },
+  {
+    name: "Stargazer do norte",
+    price: "R$22.000.000",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Northern_Stargazer.JPG/1200px-Northern_Stargazer.JPG",
+  },
+  {
+    name: "Tubarão tapete",
+    price: "R$24.000.000",
+    image:
+      "https://t2.ea.ltmcdn.com/pt/posts/7/9/3/4_tubarao_tapete_21397_3_600.webp",
+  },
+  {
+    name: "Tubarão-cobra",
+    price: "R$28.000.000",
+    image:
+      "https://t1.ea.ltmcdn.com/pt/posts/7/9/3/5_tubarao_cobra_21397_4_600.webp",
   },
 ];
