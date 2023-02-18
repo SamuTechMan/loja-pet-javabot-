@@ -184,4 +184,10 @@ export const animals = [
     image:
       "https://t1.ea.ltmcdn.com/pt/posts/7/9/3/5_tubarao_cobra_21397_4_600.webp",
   },
+  {
+    name: "arraia manta gigante",
+    price: "R$850.000.000",
+    image:
+      "https://extra.globo.com/incoming/15966796-7c8-cb7/w448/manta-3.jpg",
+  },
 ];
