@@ -1,4 +1,4 @@
-import { List, ShoppingCart } from "phosphor-react";
+import { List, PawPrint, ShoppingCart } from "phosphor-react";
 import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 
@@ -22,11 +22,7 @@ export default function Layout() {
             <ShoppingCart size={32} weight={"fill"} />
           </a>
           <div className="text-lg font-bold">Pet JavaBot</div>
-          <img
-            className="h-12"
-            src="https://imagensemoldes.com.br/wp-content/uploads/2021/03/Ping-Pong-PNG.png"
-            alt=""
-          />
+          <PawPrint size={40} weight="fill" />
         </div>
       </div>
       {visible && (
