@@ -30,6 +30,60 @@ export const animals = [
       "https://t2.ea.ltmcdn.com/pt/posts/3/5/3/o_feneco_como_animal_de_estimacao_20353_600.jpg",
   },
   {
+    name: "Maracanã-verdadeira",
+    price: "R$700.000",
+    image:
+      "https://www.criadourovaleverde.com.br/wp-content/uploads/2021/06/3d5dc1_f851968cafcb47048d8bd9a9810b1818.jpg",
+  },
+  {
+    name: "Gavião-pato",
+    price: "R$750.000",
+    image:
+      "https://s3.amazonaws.com/media.wikiaves.com.br/images/2422/2242348_e2f79b66a69582ae79378487a9d0eadd.jpg",
+  },
+  {
+    name: "Vaca Medonha",
+    price: "R$800.000",
+    image:
+      "https://preview.redd.it/ls6za4u0siu71.png?auto=webp&s=e366f2faf51c1866ed7dd3d2b6708b8f92011437",
+  },
+  {
+    name: "tucano-de-bico-verde",
+    price: "R$900.000",
+    image:
+      "https://s3.amazonaws.com/media.wikiaves.com.br/images/6283/3826172_9443b4d686f5c7bfb46ad29b98ec9bf2.jpg",
+  },
+  {
+    name: "Lutino Cara Branca",
+    price: "R$1.000.000",
+    image:
+      "https://guiaanimal.net/uploads/content/image/8037/AdobeStock_208682110.jpeg",
+  },
+  {
+    name: "Gavião pega-macaco",
+    price: "R$1.300.000",
+    image:
+      "https://www.passaro.org/wp-content/uploads/2018/11/Gavi%C3%A3o-Pega-Macaco-habitat-e1541095707159.jpg",
+  },
+  {
+    name: "Bico-de-pimenta",
+    price: "R$1.500.000",
+    image:
+      "https://s3.amazonaws.com/media.wikiaves.com.br/images/1771/1771582_06fac92e858b14711ab4baeb539e82aa.jpg",
+  },
+  {
+    name: "Tiê-sangue",
+    price: "R$1.800.000",
+    image:
+      "https://s3.amazonaws.com/media.wikiaves.com.br/images/8481/1848831_3e05218466b5917ddf705753a530fc02.jpg",
+  },
+  {
+    name: "jacaré branco",
+    price: "R$2.200.000",
+    image:
+      "https://vegazeta.com.br/wp-content/uploads/2018/06/20d3d532eb7b4857dea12a9eefb9e1fa-1200x900.jpg",
+  },
+  {
     name: "Macaco-narigudo",
     price: "R$5.000.000",
     image: "https://orionneto.files.wordpress.com/2013/02/animal_09.jpg?w=980",
