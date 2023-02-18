@@ -186,8 +186,8 @@ export const animals = [
   },
   {
     name: "arraia manta gigante",
-    price: "R$850.000.000",
+    price: "R$900.000.000",
     image:
-      "https://extra.globo.com/incoming/15966796-7c8-cb7/w448/manta-3.jpg",
+      "https://marsemfim.com.br/wp-content/uploads/2016/01/a-jamanta-calamazista.jpg",
   },
 ];
