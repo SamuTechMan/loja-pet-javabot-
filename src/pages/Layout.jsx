@@ -19,7 +19,9 @@ export default function Layout() {
         </div>
         <div className="flex items-center justify-center gap-3">
           <a href="./carrinho.html">
-            <ShoppingCart size={32} weight={"fill"} />
+            <Link to="/cart">
+              <ShoppingCart size={32} weight={"fill"} />
+            </Link>
           </a>
           <div className="text-lg font-bold">Pet JavaBot</div>
           <PawPrint size={40} weight="fill" />
