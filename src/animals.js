@@ -1,6 +1,6 @@
 export const animals = [
   {
-    name: "axolote mexicano",
+    name: "Axolote mexicano",
     price: "R$400",
     image:
       "https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/2212.600x450.webp?w=710&h=533",
