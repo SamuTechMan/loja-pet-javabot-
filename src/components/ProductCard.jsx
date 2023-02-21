@@ -12,9 +12,3 @@ export default function ProductCard({ name, price, image }) {
     </div>
   );
 }
-const imagens = document.getElementsByTagName("img");
-
-for (let i = 0; i < imagens.length; i++) {
-  imagens[i].style.width = "500px";
-  imagens[i].style.height = "500px";
-}
