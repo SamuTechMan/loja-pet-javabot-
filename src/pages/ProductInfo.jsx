@@ -1,10 +1,15 @@
-import { useParams } from "react-router-dom";
+import { ArrowUUpLeft } from "phosphor-react";
+import { Link, useParams } from "react-router-dom";
 import { animals } from "../animals";
+import color from "tailwindcss/colors";
 
 export default function ProductInfo() {
   const { animal } = useParams();
   return (
-    <div className="flex flex-1 items-center justify-center bg-zinc-900">
+    <div className="relative flex flex-1 items-center justify-center bg-zinc-900">
+      <Link className="absolute top-6 left-6" to="/loja">
+        <ArrowUUpLeft size={40} weight="fill" color={color.emerald[100]} />
+      </Link>
       <div className="flex h-full w-full gap-6 p-10 shadow-md max-md:flex-col max-md:text-center md:h-5/6 md:w-5/6 md:rounded-lg md:bg-zinc-800">
         <img
           className="aspect-square h-72 w-72 rounded-lg max-md:self-center"
