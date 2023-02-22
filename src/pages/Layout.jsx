@@ -18,11 +18,10 @@ export default function Layout() {
           <Link to="/loja">Loja</Link>
         </div>
         <div className="flex items-center justify-center gap-3">
-          <a href="./carrinho.html">
-            <Link to="/cart">
-              <ShoppingCart size={32} weight={"fill"} />
-            </Link>
-          </a>
+          <Link to="/cart">
+            <ShoppingCart size={32} weight={"fill"} />
+          </Link>
+
           <div className="text-lg font-bold">Pet JavaBot</div>
           <PawPrint size={40} weight="fill" />
         </div>
