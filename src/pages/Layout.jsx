@@ -7,23 +7,24 @@ export default function Layout() {
   return (
     <>
       <div className="flex h-16 w-full items-center justify-between bg-emerald-600 p-4 text-emerald-100">
-        <button
-          onClick={() => setVisible(!visible)}
-          className="rounded-md border-2 border-emerald-800 bg-emerald-700 sm:hidden"
-        >
-          <List size={32} />
-        </button>
-        <div className="flex gap-4 max-sm:hidden">
-          <Link to="/">Home</Link>|<Link to="/sobre">Sobre</Link>|
-          <Link to="/loja">Loja</Link>
-        </div>
-        <div className="flex items-center justify-center gap-3">
+        <Link to="/" className="flex items-center justify-center gap-3">
+          <PawPrint size={40} weight="fill" />
+          <div className="text-lg font-bold">Pet JavaBot</div>
+        </Link>
+        <div className="flex items-center gap-4">
           <Link to="/cart">
             <ShoppingCart size={32} weight={"fill"} />
           </Link>
-
-          <div className="text-lg font-bold">Pet JavaBot</div>
-          <PawPrint size={40} weight="fill" />
+          <button
+            onClick={() => setVisible(!visible)}
+            className="rounded-md border-2 border-emerald-800 bg-emerald-700 sm:hidden"
+          >
+            <List size={32} />
+          </button>
+          <div className="flex gap-4 max-sm:hidden">
+            <Link to="/">Home</Link>|<Link to="/sobre">Sobre</Link>|
+            <Link to="/loja">Loja</Link>
+          </div>
         </div>
       </div>
       {visible && (
