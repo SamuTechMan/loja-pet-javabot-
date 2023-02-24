@@ -1,6 +1,9 @@
+export const animalTypes = ["land","hybrid","fly","swim","dead"]
+
 export const animals = [
   {
     name: "Axolote mexicano",
+    categoria: "hybrid",
     price: "R$400",
     image:
       "https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/2212.600x450.webp?w=710&h=533",
@@ -8,6 +11,7 @@ export const animals = [
   },
   {
     name: "Java Mouse Deer",
+    categoria: "land",
     price: "R$150.000",
     image:
       "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/cba54271-70f9-49df-bdb3-868f1bbbf7f8/db3dh1r-183548cc-1d38-4585-ae39-5a455ffc2669.jpg/v1/fill/w_1045,h_765,q_70,strp/java_mouse_deer_by_gredinia_db3dh1r-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgxMyIsInBhdGgiOiJcL2ZcL2NiYTU0MjcxLTcwZjktNDlkZi1iZGIzLTg2OGYxYmJiZjdmOFwvZGIzZGgxci0xODM1NDhjYy0xZDM4LTQ1ODUtYWUzOS01YTQ1NWZmYzI2NjkuanBnIiwid2lkdGgiOiI8PTI0NzYifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.CJH7BCODrcQn5B2ABuBVt4J9jxMWgd-DVXTl3Gc2LiE",
@@ -15,6 +19,7 @@ export const animals = [
   },
   {
     name: "Tamanduá dourado",
+    categoria: "land",
     price: "R$350.000",
     image:
       "https://www.portalmissal.com.br/images/blog/main/large/menor-tamandua-do-mundo-cabe-na-palma-da-mao-e-vive-no-brasil.jpg",
@@ -22,6 +27,7 @@ export const animals = [
   },
   {
     name: "Aye-aye",
+    categoria: "land",
     price: "R$550.000",
     image:
       "https://meusanimais.com.br/wp-content/uploads/2021/04/animal-feio-assustado.jpg",
@@ -29,6 +35,7 @@ export const animals = [
   },
   {
     name: "Raposa Feneco",
+    categoria: "land",
     price: "R$650.000",
     image:
       "https://t2.ea.ltmcdn.com/pt/posts/3/5/3/o_feneco_como_animal_de_estimacao_20353_600.jpg",
@@ -36,6 +43,7 @@ export const animals = [
   },
   {
     name: "Maracanã-verdadeira",
+    categoria: "fly",
     price: "R$700.000",
     image:
       "https://www.criadourovaleverde.com.br/wp-content/uploads/2021/06/3d5dc1_f851968cafcb47048d8bd9a9810b1818.jpg",
@@ -43,6 +51,7 @@ export const animals = [
   },
   {
     name: "Gavião-pato",
+    categoria: "fly",
     price: "R$750.000",
     image:
       "https://s3.amazonaws.com/media.wikiaves.com.br/images/2422/2242348_e2f79b66a69582ae79378487a9d0eadd.jpg",
@@ -50,6 +59,7 @@ export const animals = [
   },
   {
     name: "Vaca Medonha",
+    categoria: "land",
     price: "R$800.000",
     image:
       "https://preview.redd.it/ls6za4u0siu71.png?auto=webp&s=e366f2faf51c1866ed7dd3d2b6708b8f92011437",
@@ -57,6 +67,7 @@ export const animals = [
   },
   {
     name: "tucano-de-bico-verde",
+    categoria: "fly",
     price: "R$900.000",
     image:
       "https://s3.amazonaws.com/media.wikiaves.com.br/images/6283/3826172_9443b4d686f5c7bfb46ad29b98ec9bf2.jpg",
@@ -64,6 +75,7 @@ export const animals = [
   },
   {
     name: "Lutino Cara Branca",
+    categoria: "fly",
     price: "R$1.000.000",
     image:
       "https://guiaanimal.net/uploads/content/image/8037/AdobeStock_208682110.jpeg",
@@ -71,6 +83,7 @@ export const animals = [
   },
   {
     name: "Gavião pega-macaco",
+    categoria: "fly",
     price: "R$1.300.000",
     image:
       "https://www.passaro.org/wp-content/uploads/2018/11/Gavi%C3%A3o-Pega-Macaco-habitat-e1541095707159.jpg",
@@ -78,6 +91,7 @@ export const animals = [
   },
   {
     name: "Bico-de-pimenta",
+    categoria: "fly",
     price: "R$1.500.000",
     image:
       "https://s3.amazonaws.com/media.wikiaves.com.br/images/1771/1771582_06fac92e858b14711ab4baeb539e82aa.jpg",
@@ -85,6 +99,7 @@ export const animals = [
   },
   {
     name: "Tiê-sangue",
+    categoria: "fly",
     price: "R$1.800.000",
     image:
       "https://s3.amazonaws.com/media.wikiaves.com.br/images/8481/1848831_3e05218466b5917ddf705753a530fc02.jpg",
@@ -92,6 +107,7 @@ export const animals = [
   },
   {
     name: "jacaré branco",
+    categoria: "hybrid",
     price: "R$2.200.000",
     image:
       "https://vegazeta.com.br/wp-content/uploads/2018/06/20d3d532eb7b4857dea12a9eefb9e1fa-1200x900.jpg",
@@ -99,6 +115,7 @@ export const animals = [
   },
   {
     name: "Macaco-narigudo",
+    categoria: "land",
     price: "R$5.000.000",
     image: 
         "https://orionneto.files.wordpress.com/2013/02/animal_09.jpg?w=980",
@@ -106,6 +123,7 @@ export const animals = [
   },
   {
     name: "Lula-verme",
+    categoria: "swim",
     price: "R$6.500.000",
     image:
       "https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/27022.webp?w=710&h=454",
@@ -113,6 +131,7 @@ export const animals = [
   },
   {
     name: "Lesma ninja de Bornéu",
+    categoria: "fly",
     price: "R$8.000.000",
     image:
       "https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/27185.jpg?w=1600",
@@ -120,6 +139,7 @@ export const animals = [
   },
   {
     name: "Macaco de Mianmar",
+    categoria: "land",
     price: "R$9.000.000",
     image:
       "https://hypescience.com/wp-content/uploads/2010/12/anibiz5.jpg",
@@ -127,6 +147,7 @@ export const animals = [
   },
   {
     name: "Rato-toupeira-pelado",
+    categoria: "land",
     price: "R$10.000.000",
     image:
       "https://igec.com.br/wp-content/uploads/2021/04/74f8567605bf2b58211ea4e7bd2b74b8_Rato-toupeira-pelado.jpg",
@@ -134,6 +155,7 @@ export const animals = [
   },
   {
     name: "Jerboar",
+    categoria: "land",
     price: "R$12.000.000",
     image:
       "https://igec.com.br/wp-content/uploads/2021/04/705980d1af4ffcd24f9c029bd29c4610_Jerboa.jpg",
@@ -141,6 +163,7 @@ export const animals = [
   },
   {
     name: "Tenreque-raiado-das-planícies",
+    categoria: "land",
     price: "R$13.000.000",
     image:
       "https://igec.com.br/wp-content/uploads/2021/04/c4dadbe3b9478727e79cd9eb43b36f1e_tenreque-raiado-das-planicies.jpg",
@@ -148,6 +171,7 @@ export const animals = [
   },
   {
     name: "Colugo",
+    categoria: "hybrid",
     price: "R$13.500.000",
     image:
       "https://igec.com.br/wp-content/uploads/2021/04/32508d44377bb608885ce78dd0a6d52c_ngs0_8091-2.jpg",
@@ -155,6 +179,7 @@ export const animals = [
   },
   {
     name: "Ocapi",
+    categoria: "land",
     price: "R$13.700.000",
     image:
       "https://igec.com.br/wp-content/uploads/2021/04/3f6b04365f20b098bc5993429f3c8d46_ocapi_capa_animal_widexl.jpg",
@@ -162,6 +187,7 @@ export const animals = [
   },
   {
     name: "Babirusa",
+    categoria: "land",
     price: "R$14.000.000",
     image:
       "https://igec.com.br/wp-content/uploads/2021/04/7e8b05d476fd5d7cfd1df14b48045339_Babirusa.jpg",
@@ -169,6 +195,7 @@ export const animals = [
   },
   {
     name: "Peixe-Gota",
+    categoria: "swim",
     price: "R$14.800.000",
     image:
       "https://igec.com.br/wp-content/uploads/2021/04/41d9810e4f466644cb104b2495f85972_Peixe-Gota.jpg",
@@ -176,6 +203,7 @@ export const animals = [
   },
   {
     name: "Peixe-mão rosa",
+    categoria: "swim",
     price: "R$15.000.000",
     image:
       "https://ogimg.infoglobo.com.br/in/25331649-7eb-3d6/FT1086A/_122493152_pink_handfish_by_karen_gowle.2e16d0ba.fill-1200x600-c100.jpg",
@@ -183,6 +211,7 @@ export const animals = [
   },
   {
     name: "O engolidor-negro",
+    categoria: "dead",
     price: "R$17.000.000",
     image:
       "https://t1.ea.ltmcdn.com/pt/posts/7/9/3/1_o_engolidor_negro_21397_0_600.webp",
@@ -190,6 +219,7 @@ export const animals = [
   },
   {
     name: "peixe-comedor-de-língua",
+    categoria: "swim",
     price: "R$20.000.000",
     image:
       "https://img.r7.com/images/parasita-lingua-peixe-terror-redes-sociais-09082022183140832?dimensions=771x420&no_crop=true",
@@ -197,13 +227,15 @@ export const animals = [
   },
   {
     name: "Stargazer do norte",
+    categoria: "swim",
     price: "R$22.000.000",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Northern_Stargazer.JPG/1200px-Northern_Stargazer.JPG",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1uSQ1W3KtYeFtft7ofdegE42RpZH0oSCPN_93OwKKXhIIQVSRRwkLQQFYTQ2uH2NnPtE&usqp=CAU",
     info: "O Stargazer do norte é um peixe marrom-escuro com manchas brancas que gradualmente ficam maiores da cabeça à cauda. Os adultos têm: * Boca e olhos voltados para cima.",  
   },
   {
     name: "Tubarão tapete",
+    categoria: "swim",
     price: "R$24.000.000",
     image:
       "https://t2.ea.ltmcdn.com/pt/posts/7/9/3/4_tubarao_tapete_21397_3_600.webp",
@@ -211,6 +243,7 @@ export const animals = [
   },
   {
     name: "Tubarão-cobra",
+    categoria: "swim",
     price: "R$28.000.000",
     image:
       "https://t1.ea.ltmcdn.com/pt/posts/7/9/3/5_tubarao_cobra_21397_4_600.webp",
@@ -218,6 +251,7 @@ export const animals = [
   },
   {
     name: "arraia manta gigante",
+    categoria: "dead",
     price: "R$900.000.000",
     image:
       "https://marsemfim.com.br/wp-content/uploads/2016/01/a-jamanta-calamazista.jpg",
