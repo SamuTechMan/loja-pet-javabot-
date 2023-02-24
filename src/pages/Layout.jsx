@@ -32,11 +32,11 @@ export default function Layout() {
             <Link to="/">
               <House size={32} weight="fill" />
             </Link>
-            <Link to="/sobre">
-              <Info size={32} weight="fill" />
-            </Link>
             <Link to="/loja">
               <Storefront size={32} weight="fill" />
+            </Link>
+            <Link to="/sobre">
+              <Info size={32} weight="fill" />
             </Link>
           </div>
         </div>
@@ -47,13 +47,13 @@ export default function Layout() {
             <Link className="flex gap-2" to="/">
               <House size={28} weight="fill" /> Home
             </Link>
-            <Link className="flex gap-2" to="/sobre">
-              <Info size={28} weight="fill" />
-              Sobre
-            </Link>
             <Link className="flex gap-2" to="/loja">
               <Storefront size={28} weight="fill" />
               Loja
+            </Link>
+            <Link className="flex gap-2" to="/sobre">
+              <Info size={28} weight="fill" />
+              Sobre
             </Link>
           </div>
         </div>
