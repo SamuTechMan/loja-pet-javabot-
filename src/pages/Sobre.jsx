@@ -1,3 +1,6 @@
+import { GithubLogo } from "phosphor-react";
+import colors from "tailwindcss/colors";
+
 export default function Sobre() {
   return (
     <div className="flex flex-1 flex-col items-center justify-center gap-12 bg-stone-900">
@@ -13,6 +16,13 @@ export default function Sobre() {
         abertos a contribuições da comunidade. Também e possível você adquirir
         um pet na nossa loja que está em constante mudança na variação.
       </p>
+      <a
+        className="flex items-center justify-center gap-3 rounded-lg bg-emerald-400 p-3 text-black"
+        href="https://github.com/SamuTechMan/loja-pet-javabot-"
+      >
+        <GithubLogo color={colors.black} size={32} />
+        Veja no Github
+      </a>
     </div>
   );
 }
