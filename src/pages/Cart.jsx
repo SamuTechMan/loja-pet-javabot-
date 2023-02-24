@@ -3,7 +3,7 @@ import { animals } from "../animals";
 
 export default function Cart() {
   return (
-    <div className="flex w-full flex-1 flex-col gap-6 overflow-auto bg-zinc-900 p-6">
+    <div className="flex w-full flex-1 flex-col gap-6 overflow-auto bg-stone-900 p-6">
       <div className="self-start text-4xl text-emerald-100">Carrinho</div>
       <div className="flex-1">
         <div className="flex flex-1 flex-col divide-y-2 divide-zinc-900 rounded-lg bg-zinc-800 px-5">

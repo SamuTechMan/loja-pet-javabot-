@@ -13,7 +13,7 @@ export default function Layout() {
   const [visible, setVisible] = useState(false);
   return (
     <>
-      <div className="flex h-16 w-full items-center justify-between bg-emerald-600 p-4 text-emerald-100">
+      <div className="flex h-16 w-full items-center justify-between bg-emerald-800 p-4 text-emerald-100">
         <Link to="/" className="flex items-center justify-center gap-3">
           <PawPrint size={40} weight="fill" />
           <div className="text-lg font-bold">Pet JavaBot</div>
@@ -29,9 +29,6 @@ export default function Layout() {
             <List size={32} />
           </button>
           <div className="flex gap-4 max-sm:hidden">
-            <Link to="/">
-              <House size={32} weight="fill" />
-            </Link>
             <Link to="/loja">
               <Storefront size={32} weight="fill" />
             </Link>
@@ -43,10 +40,7 @@ export default function Layout() {
       </div>
       {visible && (
         <div className="relative">
-          <div className="fixed flex w-full flex-col gap-3 bg-emerald-600 p-6 text-xl font-bold text-emerald-100 sm:hidden">
-            <Link className="flex gap-2" to="/">
-              <House size={28} weight="fill" /> Home
-            </Link>
+          <div className="fixed flex w-full flex-col gap-3 bg-emerald-700 p-6 text-xl font-bold text-emerald-100 sm:hidden">
             <Link className="flex gap-2" to="/loja">
               <Storefront size={28} weight="fill" />
               Loja
@@ -58,7 +52,7 @@ export default function Layout() {
           </div>
         </div>
       )}
-      <Outlet />
+      <Outlet/>
     </>
   );
 }
