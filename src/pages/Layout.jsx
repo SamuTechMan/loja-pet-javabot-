@@ -24,7 +24,7 @@ export default function Layout() {
           </Link>
           <button
             onClick={() => setVisible(!visible)}
-            className="rounded-md border-2 border-emerald-800 bg-emerald-700 sm:hidden"
+            className="rounded-md bg-emerald-700 p-1 sm:hidden"
           >
             <List size={32} />
           </button>
@@ -52,7 +52,7 @@ export default function Layout() {
           </div>
         </div>
       )}
-      <Outlet/>
+      <Outlet />
     </>
   );
 }
