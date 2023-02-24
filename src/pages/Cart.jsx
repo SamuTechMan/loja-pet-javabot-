@@ -40,7 +40,7 @@ export default function Cart() {
         className="rounded-xl bg-emerald-400 p-4 text-center max-md:w-full"
         to="/loja"
       >
-        Fechar Pedido
+        Finalizar Pedido
       </button>
     </div>
   );
