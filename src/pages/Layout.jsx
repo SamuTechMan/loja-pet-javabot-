@@ -1,4 +1,11 @@
-import { List, PawPrint, ShoppingCart } from "phosphor-react";
+import {
+  House,
+  Info,
+  List,
+  PawPrint,
+  ShoppingCart,
+  Storefront,
+} from "phosphor-react";
 import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
 
@@ -22,17 +29,32 @@ export default function Layout() {
             <List size={32} />
           </button>
           <div className="flex gap-4 max-sm:hidden">
-            <Link to="/">Home</Link>|<Link to="/sobre">Sobre</Link>|
-            <Link to="/loja">Loja</Link>
+            <Link to="/">
+              <House size={32} weight="fill" />
+            </Link>
+            <Link to="/sobre">
+              <Info size={32} weight="fill" />
+            </Link>
+            <Link to="/loja">
+              <Storefront size={32} weight="fill" />
+            </Link>
           </div>
         </div>
       </div>
       {visible && (
         <div className="relative">
           <div className="fixed flex w-full flex-col gap-3 bg-emerald-600 p-6 text-xl font-bold text-emerald-100 sm:hidden">
-            <Link to="/">Home</Link>
-            <Link to="/sobre">Sobre</Link>
-            <Link to="/loja">Loja</Link>
+            <Link className="flex gap-2" to="/">
+              <House size={28} weight="fill" /> Home
+            </Link>
+            <Link className="flex gap-2" to="/sobre">
+              <Info size={28} weight="fill" />
+              Sobre
+            </Link>
+            <Link className="flex gap-2" to="/loja">
+              <Storefront size={28} weight="fill" />
+              Loja
+            </Link>
           </div>
         </div>
       )}
