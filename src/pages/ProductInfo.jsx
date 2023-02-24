@@ -22,7 +22,7 @@ export default function ProductInfo() {
               {animals[animal].name}
             </div>
             <div className="text-emerald-300">{animals[animal].price}</div>
-            <div className="mb-8 text-emerald-100">{animals[animal].info}</div>
+            <div className="mb-8 text-justify text-emerald-100">{animals[animal].info}</div>
           </div>
           <div className="flex w-full gap-3 text-lg">
             <button className="w-full rounded-xl bg-zinc-700 p-4 text-emerald-100">
