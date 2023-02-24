@@ -3,36 +3,45 @@ import { animals } from "../animals";
 
 export default function Cart() {
   return (
-    <div className="flex w-full flex-1 flex-col  gap-12 overflow-auto bg-zinc-900 p-8">
-      <div className="flex flex-col gap-5 rounded-lg bg-zinc-800 p-5">
-        {animals.slice(3, 6).map((animal) => (
-          <div className="flex">
-            <img
-              className="aspect-square h-32 rounded-lg"
-              src={animal.image}
-              alt=""
-            />
-            <div className="flex flex-1 flex-col justify-between pl-4">
-              <div>
-                <div className="text-2xl text-emerald-100">{animal.name}</div>
-                <div className="text-lg text-emerald-300">{animal.price}</div>
+    <div className="flex w-full flex-1 flex-col gap-6 overflow-auto bg-zinc-900 p-6">
+      <div className="self-start text-4xl text-emerald-100">Carrinho</div>
+      <div className="flex-1">
+        <div className="flex flex-1 flex-col divide-y-2 divide-zinc-900 rounded-lg bg-zinc-800 px-5">
+          {animals.slice(3, 6).map((animal) => (
+            <div className="flex py-5">
+              <img
+                className="aspect-square w-1/3 rounded-lg sm:h-32"
+                src={animal.image}
+                alt=""
+              />
+              <div className="flex flex-1 flex-col justify-between pl-4">
+                <div>
+                  <div className="text-2xl text-emerald-100">{animal.name}</div>
+                  <div className="text-md text-emerald-300">{animal.price}</div>
+                </div>
+                <div className="flex max-w-fit gap-3 rounded-lg bg-zinc-700 p-2 text-emerald-100">
+                  Qtd:
+                  <input
+                    className="w-full bg-transparent text-right outline-none"
+                    type="number"
+                    name=""
+                    id=""
+                  />
+                </div>
               </div>
-              <div className="flex w-56 gap-3 rounded-lg bg-zinc-700 p-2 text-emerald-100">
-                Qtd:
-                <input
-                  className="w-full bg-transparent text-right outline-none"
-                  type="number"
-                  name=""
-                  id=""
-                />
-              </div>
+              <button className="flex aspect-square h-10 items-center justify-center rounded-lg bg-red-400">
+                <Trash size={26} weight="fill" color="white" />
+              </button>
             </div>
-            <button className="flex aspect-square h-10 items-center justify-center rounded-lg bg-red-400">
-              <Trash size={26} weight="fill" color="white" />
-            </button>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
+      <button
+        className="rounded-xl bg-emerald-400 p-4 text-center max-md:w-full"
+        to="/loja"
+      >
+        Fechar Pedido
+      </button>
     </div>
   );
 }
