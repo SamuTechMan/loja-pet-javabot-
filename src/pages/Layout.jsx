@@ -29,6 +29,9 @@ export default function Layout() {
             <List size={32} />
           </button>
           <div className="flex gap-4 max-sm:hidden">
+            <Link to="/">
+              <House size={32} weight="fill" />
+            </Link>
             <Link to="/loja">
               <Storefront size={32} weight="fill" />
             </Link>
@@ -40,12 +43,16 @@ export default function Layout() {
       </div>
       {visible && (
         <div className="relative">
-          <div className="fixed flex w-full flex-col gap-3 bg-emerald-700 p-6 text-xl font-bold text-emerald-100 sm:hidden">
-            <Link className="flex gap-2" to="/loja">
+          <div className="fixed flex w-full flex-col gap-5 bg-emerald-700 p-6 text-2xl font-bold text-emerald-100 sm:hidden">
+            <Link className="flex items-center gap-2" to="/">
+              <House size={28} weight="fill" />
+              House
+            </Link>
+            <Link className="flex items-center gap-2" to="/loja">
               <Storefront size={28} weight="fill" />
               Loja
             </Link>
-            <Link className="flex gap-2" to="/sobre">
+            <Link className="flex items-center gap-2" to="/sobre">
               <Info size={28} weight="fill" />
               Sobre
             </Link>
