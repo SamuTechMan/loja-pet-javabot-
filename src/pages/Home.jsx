@@ -21,15 +21,21 @@ export default function Home() {
       </Link>
       <div className="flex gap-6 max-md:hidden max-md:flex-col">
         {animals.slice(0, 3).map((animal) => (
-          <div className="max-w-full flex-1 rounded-lg bg-zinc-800 shadow-md md:max-w-xs">
+          <Link
+            to={"loja/" + animal.id}
+            className="max-w-full flex-1 rounded-lg bg-zinc-800 shadow-md md:max-w-xs"
+          >
             <div className="p-3 text-center text-emerald-100">
               {animal.name}
             </div>
             <img className="aspect-video" src={animal.image} alt="" />
             <div className="p-3 text-center text-2xl text-emerald-300">
-              {animal.price}
+              {animal.price.toLocaleString("pt-br", {
+                style: "currency",
+                currency: "BRL",
+              })}
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
