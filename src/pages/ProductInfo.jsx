@@ -4,7 +4,9 @@ import { animals } from "../animals";
 import color from "tailwindcss/colors";
 
 export default function ProductInfo() {
-  const { animal } = useParams();
+  const { id } = useParams();
+  const data = animals.find((animal) => animal.id == id);
+
   return (
     <div className="flex flex-1 flex-col bg-stone-900">
       <Link className="p-4" to="/loja">
@@ -13,17 +15,15 @@ export default function ProductInfo() {
       <div className="flex h-full w-full gap-6 p-10 shadow-md max-md:flex-col max-md:text-center">
         <img
           className="aspect-square h-72 w-72 rounded-lg max-md:self-center"
-          src={animals[animal].image}
+          src={data.image}
           alt=""
         />
         <div className="flex flex-1 flex-col">
           <div className="flex flex-1 flex-col gap-6">
-            <div className="text-5xl text-emerald-100">
-              {animals[animal].name}
-            </div>
-            <div className="text-emerald-300">{animals[animal].price}</div>
+            <div className="text-5xl text-emerald-100">{data.name}</div>
+            <div className="text-emerald-300">{data.price}</div>
             <div className="mb-8 text-justify text-emerald-100">
-              {animals[animal].info}
+              {data.info}
             </div>
           </div>
           <div className="flex w-full gap-3 text-lg">
