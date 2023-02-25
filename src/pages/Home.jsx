@@ -3,7 +3,7 @@ import { animals } from "../animals";
 
 export default function Home() {
   return (
-    <div className="flex w-full flex-1 flex-col items-center justify-between gap-12 overflow-auto bg-stone-900 p-6 md:justify-around">
+    <div className="flex h-full w-full flex-col items-center justify-between gap-12 p-6 md:justify-around">
       <div className="flex flex-col gap-12">
         <div className="mt-6 text-5xl text-emerald-100 md:text-center">
           Bem-vindo a nossa loja de animas nem um pouco ilegais

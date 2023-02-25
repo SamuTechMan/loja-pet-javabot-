@@ -9,8 +9,8 @@ export default function ProductInfo() {
   const navigate = useNavigate();
 
   return (
-    <div className="flex flex-1 flex-col bg-stone-900">
-      <button onClick={() => navigate(-1)} className="p-4" to="/loja">
+    <div className="flex flex-col">
+      <button onClick={() => navigate(-1)} className="p-4">
         <ArrowUUpLeft size={40} weight="fill" color={color.emerald[100]} />
       </button>
       <div className="flex h-full w-full gap-6 p-10 shadow-md max-md:flex-col max-md:text-center">

@@ -3,7 +3,7 @@ import colors from "tailwindcss/colors";
 
 export default function Sobre() {
   return (
-    <div className="flex flex-1 flex-col items-center justify-center gap-12 bg-stone-900">
+    <div className="flex h-full flex-col items-center justify-center gap-12">
       <h1 className="text-center text-4xl text-emerald-300">
         Sobre o Pet JavaBot
       </h1>
